@@ -20,3 +20,4 @@ public class WebControllerPoste {
         return "home";
     }
 }
+//@data
