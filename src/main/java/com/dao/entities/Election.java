@@ -19,5 +19,6 @@ public class Election {
      int idElection;
      Date dateDebut;
      Date dateFin;
+     //test
 
 }
