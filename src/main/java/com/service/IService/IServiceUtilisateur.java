@@ -12,3 +12,5 @@ public interface IServiceUtilisateur {
         public Utilisateur rechercherUtilisateur(Integer id)throws Exception;
 
 }
+
+

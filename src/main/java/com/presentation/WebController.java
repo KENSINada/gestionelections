@@ -12,7 +12,6 @@ public class WebController {
 private final IServiceUtilisateur su;
 @GetMapping("/home")
     public String getHome(Model model){
-    List<Utilisateur> listUtilisateur = su.listerUtilisateur();
-}
+    List<Utilisateur> listUtilisateur = su.listerUtilisateur();}
 
 }
