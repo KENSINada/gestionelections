@@ -55,6 +55,12 @@ public class WebController {
             return "redirect:/home";
         }
     }
+    @GetMapping("/supprimer/{id}")
+    public String delete(@PathVariable Integer id, Model model) throws Exception {
+        su.supprimerUtilisateur(id);
+        return "redirect:/home";
+
+    }
 }
 
 
